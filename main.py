@@ -1,5 +1,6 @@
 """Calcula el area de un rectángulo o un cuadrado"""
 def calculate_area(length, width=None):
+    """ Calculo del area"""
     if width is None:
         width = length
     return length * width
